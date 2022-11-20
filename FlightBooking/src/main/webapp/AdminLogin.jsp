@@ -35,7 +35,7 @@
 	
 					<div class="signin-form">
 						<h2 class="form-title">Sign in as Admin</h2>
-						<form method="post" action="Adminlogin" class="register-form" id="login-form">
+						<form method="post" action="AdminLogin" class="register-form" id="login-form">
 							<div class="form-group">
 								<label for="username"><i
 									class="zmdi zmdi-account material-icons-name"></i></label> <input
@@ -49,9 +49,9 @@
 							</div>
 							<div class="form-group">
 								<input type="checkbox" name="remember-me" id="remember-me"
-									class="agree-term" /> <label for="remember-me"
-									class="label-agree-term"><span><span></span></span>Remember
-									me</label>
+									class="agree-term" /> 
+									<label for="remember-me"
+									class="label-agree-term"><span><span></span></span>Remember me</label>
 							</div>
 							<div class="form-group form-button">
 								<input type="submit" name="signin" id="signin"
@@ -85,5 +85,4 @@ if(status =="failed")
 	}
 </script>
 </body>
-<!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>

@@ -17,7 +17,7 @@ import flyaway.utils.DataBaseConnection;
 /**
  * Servlet implementation class Login
  */
-@WebServlet("/Adminlogin")
+@WebServlet("/AdminLogin")
 public class AdminLogin extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	  
@@ -42,8 +42,10 @@ public class AdminLogin extends HttpServlet {
 		{
 			session.setAttribute("name", rs.getString("username"));
 			dispatcher = request.getRequestDispatcher("AdminPortal.jsp");
+			System.out.println("Redirecting to Adminpage");
 		}else {
 			request.setAttribute("status", "failed");
+			System.out.println("Login Failed");
 			dispatcher = request.getRequestDispatcher("AdminLogin.jsp");
 		}
 		dispatcher.forward(request, response);

@@ -17,6 +17,8 @@
 					        <label for="new_password">New Password</label>
 					        <input type="text" name="new_password" id="new_password">
 					        <button class="btn-admin">Change Password</button>
+					         <button class="btn-admin">Submit</button>
+					        
 					    </div>
  					</div>
  				</div>

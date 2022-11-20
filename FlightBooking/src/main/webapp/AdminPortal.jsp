@@ -44,11 +44,11 @@
         
         <label for="places">Configure places</label>
         <select name="places" id="places">
-          <option value="india">India</option>
-          <option value="belgium">Belgium</option>
-          <option value="hawaii">Hawaii</option>
-          <option value="sweden">Sweden</option>
-          <option value="newzealand">New Zealand</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Chennai">Chennai</option>
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Kolkata">Kolkata</option>
         </select> 
 
         <label for="airlines">Configure Airlines</label>
@@ -60,8 +60,7 @@
           <option value="airasia">Air Asia</option>
         </select> 
 
-        <button class="btn-admin">Submit</button>
-
+       
 
     </div>
 
