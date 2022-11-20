@@ -4,21 +4,34 @@
 <%@ page import="java.util.*" %>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-	href="https://fonts.googleapis.com/css?family=Raleway">
 	<style><%@include file="/WEB-INF/css/style2.css"%></style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Raleway">
+	<style><%@include file="/WEB-INF/css/styles4.css"%></style>
 	<link rel="stylesheet"
 	href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Select Flight</title>
 </head>
 <body>
-<form action="ShowSearchResults" method="post">
+<form action="RegisterUser" method="post">
 <br>
     <div class="container">
 
+			<div class="w3-top">
+			<div class="w3-bar w3-white w3-card" id="myNavbar">
+				<a href="Homepage.jsp" class="w3-bar-item w3-button w3-wide">FlyAway</a>
+			</div>
+		</div>
+<br></br>
     <!-- Header : End -->
     
         <!-- Card : Start -->
@@ -92,14 +105,15 @@
                     <td>Brussels</td>
                     <td>11-05-2022</td>
                     <td>70000 INR</td>
-                    <td><button class="book-btn">Book</button></td>
+        			<td><button class="book-btn">Book</button></td>
+                    </td>
                 </tr>
             </tbody>
         </table>
 
         <!-- Table : End -->
 
-
     </div>
 </body>
 </html>
+    

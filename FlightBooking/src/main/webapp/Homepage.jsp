@@ -55,7 +55,7 @@ body, html {
 	<form action="BookFlight" method="post">
 		<div class="w3-top">
 			<div class="w3-bar w3-white w3-card" id="myNavbar">
-				<a href="/Homepage.jsp" class="w3-bar-item w3-button w3-wide">FlyAway</a>
+				<a href="Homepage.jsp" class="w3-bar-item w3-button w3-wide">FlyAway</a>
 				<div class="w3-right w3-hide-small">
 					<a href="AdminLogin.jsp" class="w3-bar-item w3-button">Admin Corner</a>
 				</div>

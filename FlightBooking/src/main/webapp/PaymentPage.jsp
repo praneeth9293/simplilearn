@@ -8,13 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- custom css file link  -->
-	<style><%@include file="/WEB-INF/css/styles3.css"%></style>
+	<style><%@include file="/WEB-INF/css/styles4.css"%></style>
 <title>Insert title here</title>
 </head>
 <body>
 <div class="container">
 
-    <form action="">
+    <form action="Homepage.jsp">
 
         <div class="row">
 

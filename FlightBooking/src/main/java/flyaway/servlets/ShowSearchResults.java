@@ -30,7 +30,7 @@ public class ShowSearchResults extends HttpServlet {
 		
 		db_register.getConnection();
 		
-		RequestDispatcher  dispatcher = request.getRequestDispatcher("/PaymentPage.jsp");
+		RequestDispatcher  dispatcher = request.getRequestDispatcher("/RegisterUser.jsp");
 		dispatcher.forward(request, response);
 		
 		
