@@ -41,7 +41,7 @@ public class RegisterUser extends HttpServlet {
 			pst.setString(4, mobile);
 			
 			int rowCount= pst.executeUpdate();
-			dispatcher = request.getRequestDispatcher("registration.jsp");
+			dispatcher = request.getRequestDispatcher("Registration.jsp");
 			if(rowCount>0)
 			{
 				request.setAttribute("status", "success");
