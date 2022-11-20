@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+/* Header : Start */
+
+.header {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a73e8;
+    padding: 20px 40px;
+}
+
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+}
+
+.highlight {
+    color: ivory;
+}
+
+.btn-admin {
+    width: 150px;
+    height: 40px;
+    padding: auto;
+    cursor: pointer;
+}
+
+.not-link {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header : End */
+
+/* Footer : Start */
+
+.footer {
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+}
+
+.footer p {
+    width: 100%;
+    text-align: center;
+    margin: 4px 0px;
+    color: white;
+}
+
+/* Footer : End */
+
+/* List Page : Start */
+
+.heading {
+    text-align: center;
+}
+.card {
+    width: 400px;
+    height: fit-content;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;  
+    background-color: #5b57571f;
+}
+
+.search-params {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-params p {
+    padding-bottom: 5px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+table {
+    margin: auto;
+    padding-top: 40px;
+    width: 100%;
+}
+
+thead {
+    background-color: #5b57571f;
+    height: 30px;
+}
+
+tr {
+    background-color: #5b57571f;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.book-btn {
+    width: 100px;
+    cursor: pointer;
+}
+
+/* List Page : Start */
+
+/* Admin Page : Start */
+
+.password-form {
+    margin-bottom: 40px;
+}
+
+.password-form h1, .configuration h1 {
+    text-align: center;
+    padding: 5px 0 10px 0;
+}
+
+.password-form label, .password-form input, .configuration label, .configuration select {
+    width: 100%;
+    margin: 8px auto;
+}
+
+.password-form input, .configuration select {
+    padding: 10px;
+}
+
+.password-form button, .configuration button {
+    width: 100%;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+/* Admin Page : Start */
+
