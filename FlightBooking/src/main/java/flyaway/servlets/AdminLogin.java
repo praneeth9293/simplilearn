@@ -23,7 +23,6 @@ public class AdminLogin extends HttpServlet {
 	  
 	DataBaseConnection db_login = new DataBaseConnection();
 	
-	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		RequestDispatcher dispatcher = null;
