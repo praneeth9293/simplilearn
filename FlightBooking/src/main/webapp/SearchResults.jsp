@@ -46,8 +46,8 @@
                     <p class="bold-text">No. of travellers: </p>
                 </div>
                 <div class="filter">
-                    <p>India</p>
-                    <p>Belgium</p>
+                    <p>Delhi</p>
+                    <p>Chennai</p>
                     <p>11-05-2022, Saturday</p>
                     <p>1</p>
                 </div>
@@ -69,40 +69,40 @@
             <tbody>
                 <tr>
                     <td>Indigo Airlines</td>
-                    <td>Bangalore</td>
-                    <td>Antwerp</td>
+                    <td>Delhi</td>
+                    <td>Chennai</td>
                     <td>11-05-2022</td>
                     <td>72000 INR</td>
                     <td><button class="book-btn">Book</button></td>
                 </tr>
                 <tr>
                     <td>Qatar Airways</td>
+                    <td>Delhi</td>
                     <td>Chennai</td>
-                    <td>Brussels</td>
                     <td>11-05-2022</td>
                     <td>85000 INR</td>
                     <td><button class="book-btn">Book</button></td>
                 </tr>
                 <tr>
                     <td>Emirates</td>
-                    <td>Hyderabad</td>
-                    <td>Antwerp</td>
+                    <td>Delhi</td>
+                    <td>Chennai</td>
                     <td>11-05-2022</td>
                     <td>88000 INR</td>
                     <td><button class="book-btn">Book</button></td>
                 </tr>
                 <tr>
                     <td>Spice Jet</td>
-                    <td>Mumbai</td>
-                    <td>Brussels</td>
+                    <td>Delhi</td>
+                    <td>Chennai</td>
                     <td>11-05-2022</td>
                     <td>65000 INR</td>
                     <td><button class="book-btn">Book</button></td>
                 </tr>
                 <tr>
                     <td>Air Asia</td>
-                    <td>New Delhi</td>
-                    <td>Brussels</td>
+                    <td>Delhi</td>
+                    <td>Chennai</td>
                     <td>11-05-2022</td>
                     <td>70000 INR</td>
         			<td><button class="book-btn">Book</button></td>
